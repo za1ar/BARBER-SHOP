@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width =device-width, intial-scale=1">
+	<title>Barber Shop Website Design - by ZAFAR </title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<section id="banner">
+			<img src="img/logo.png" alt="logo" class="logo">
+			<div class="banner-text">
+				<h1>Hair Studio</h1>
+				<p>Style Your Hair Is Style Your Life</p>
+				<div class="banner-btn">
+					<a href="#"><span></span>Find Out</a>
+					<a href="#"><span></span>Read More</a>
+				</div>
+			</div>
+		</section>
+	<!-- PART TWO -->
+		<div id="sideNav">
+			<nav>
+				<ul>
+					<li><a href="zafar.html">Home</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Testimonials</a></li>
+					<li><a href="about.html">Mett Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="menuBTN">
+			<img src="img/menu.png" id="menu">
+		</div>
+		<script>
+			var	menuBTN = document.getElementById("menuBTN")
+			var	sideNav = document.getElementById("sideNav")
+			var	menu = document.getElementById("menu")
+	
+			sideNav.style.right = "-250px";
+	
+			menuBTN.onclick = function(){
+				if(sideNav.style.right == "-250px") {
+				sideNav.style.right = "0";
+				menu.src = "img/close.png";
+					}
+	
+			else {
+				sideNav.style.right = "-250px";
+				menu.src = "img/menu.png";
+					 }
+				}
+			</script>
+
+	<!-- features -->
+		<section id="Features">
+			<div class="tittle-text">
+				<p>FEATURES</p>
+				<h1>Why Choose Us</h1>
+			</div>
+			<div class="feature-box">
+				<div class="features">
+					<h1>Expirientced Staff</h1>
+					<div class="kelajakdagi-tushumlar">
+						<div class="feature-icon">
+							<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shield-alt" class="svg-inline--fa fa-shield-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM256.1 446.3l-.1-381 175.9 73.3c-3.3 151.4-82.1 261.1-175.8 307.7z"></path></svg>
+						</div>
+						<div class="feature-text">
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad magnam veritatis, labore, voluptatum adipisci excepturi minus, odit dolor porro omnis nobis provident quo recusandae molestias.</p>
+						</div>
+					</div>
+					<h1>Pre Booking Online</h1>
+					<div class="kelajakdagi-tushumlar">
+						<div class="feature-icon">
+							<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
+						</div>
+						<div class="feature-text">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium inventore laborum magnam nulla, commodi quaerat?</p>
+						</div>
+					</div>
+					<h1>Affordable Cost</h1>
+					<div class="kelajakdagi-tushumlar">
+						<div class="feature-icon">
+							<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="rupee-sign" class="svg-inline--fa fa-rupee-sign fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z"></path></svg>	
+						</div>
+						<div class="feature-text">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nostrum consequuntur, eius vero saepe modi.</p>
+						</div>
+					</div>
+				</div>
+				<div class="features-img">
+					<img src="img/barber-man.jpg" alt="b">	
+				</div>
+			</div>
+		</section>
+
+	<!-- service -->
+		<section id="service">
+			<div class="tittle-text">
+				<p>SERVICES</p>
+				<h1>We Provide Better</h1>
+			</div>
+			<div class="service-box">
+				<div class="yagonaxizmat">
+					<img src="img/pic-1.jpg">
+					<div class="qoplamasi"></div>
+					<div class="service-desc">
+						<h3>Hair Styling</h3>
+						<hr>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, illum. Quam saepe quaerat asperiores</p>
+					</div>
+				</div>
+				<div class="yagonaxizmat">
+					<img src="img/pic-2.jpg">
+					<div class="qoplamasi"></div>
+					<div class="service-desc">
+						<h3>Beard Trim</h3>
+						<hr>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, illum. Quam saepe quaerat asperiores</p>
+					</div>
+				</div>
+				<div class="yagonaxizmat">
+					<img src="img/pic-3.jpg">
+					<div class="qoplamasi"></div>
+					<div class="service-desc">
+						<h3>Hair Cut</h3>
+						<hr>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, illum. Quam saepe quaerat asperiores</p>
+					</div>
+				</div>
+				<div class="yagonaxizmat">
+					<img src="img/pic-4.jpg">
+					<div class="qoplamasi"></div>
+					<div class="service-desc">
+						<h3>Dry Shampoo</h3>
+						<hr>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, illum. Quam saepe quaerat asperiores</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	<!-- Testimonial -->
+		<section id="testimonial">
+			<section id="Features">
+				<div class="tittle-text">
+					<p>TESTIMONIAL</p>
+					<h1>What Client Says</h1>
+				</div>
+				<div class="komintaria-qatori">
+					<div class="komintaria">
+						<div class="user">
+							<img src="img/img-1.jpg" alt="img-1">
+							<div class="user-info">
+								 <h4>KEN NORMAN <!--<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> --></h4>
+								<small>@kennorman</small>
+							</div>
+						</div>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, repellat! Adipisci, ipsum quos nulla maxime dolorum laborum obcaecati facilis placeat, laboriosam assumenda corporis, consectetur ut. Tempore eius autem quam soluta, unde aliquam nihil! Lorem, ipsum dolor.</p>
+					</div>
+					<div class="komintaria">
+							<div class="user">
+								<img src="img/img-2.jpg" alt="img-1">
+								<div class="user-info">
+									 <h4>Liara Karian <!--<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> --></h4>
+									<small>@liarakarian</small>
+								</div>
+							</div>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, repellat! Adipisci, ipsum quos nulla maxime dolorum laborum obcaecati facilis placeat, laboriosam assumenda corporis</p>
+					</div>
+					<div class="komintaria">	
+								<div class="user">
+									<img src="img/img-3.jpg" alt="img-1">
+									<div class="user-info">
+										 <h4>Ricky Danial <!--<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> --></h4>
+										<small>@rickdanial</small>
+									</div>
+								</div>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, repellat! Adipisci, ipsum quos nulla maxime dolorum laborum obcaecati facilis placeat, laboriosam assumenda corporis, consectetur ut. Tempore eius autem quam soluta, unde aliquam nihil! Lorem, ipsum dolor.</p>
+					</div>
+				</div>
+		</section>
+		
+	<!-- Footer -->
+		<section id="footer">
+			<img src="img/footer-img.png" alt="f" class="footer-img">
+			<div class="tittle-text">
+				<p>CONTACT</p>
+				<h1>Visit Shop Today</h1>
+			</div>
+			<div class="footer-row">
+				<div class="footer-left">
+					<h1>Opening Hours</h1>
+					<p> <!--<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="clock" class="svg-inline--fa fa-clock fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm92.49,313h0l-20,25a16,16,0,0,1-22.49,2.5h0l-67-49.72a40,40,0,0,1-15-31.23V112a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V256l58,42.5A16,16,0,0,1,348.49,321Z"></path></svg>--> Monday to Friday - 9am to 9pm</p>
+					<p> <!--<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="clock" class="svg-inline--fa fa-clock fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm92.49,313h0l-20,25a16,16,0,0,1-22.49,2.5h0l-67-49.72a40,40,0,0,1-15-31.23V112a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V256l58,42.5A16,16,0,0,1,348.49,321Z"></path></svg>--> Saturday and Sunday - 8am to 11pm</p>
+				</div>
+				<div class="footer-right">
+					<h1>Get In Touch</h1>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet. <!--<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svg-inline--fa fa-map-marker-alt fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>--></p>
+					<p>zafarbozorov.01@gmail.com <!--<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="paper-plane" class="svg-inline--fa fa-paper-plane fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"></path></svg>--></p>
+					 <p>+998 99 132 77 82 <!--<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="mobile" class="svg-inline--fa fa-mobile fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg>--></p> 
+				</div>
+			</div>
+			<div class="social-links">
+				<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" class="svg-inline--fa fa-facebook fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
+				<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+				<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+				<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+			</div>
+		</section>
+
+
+</body>
+</html>
